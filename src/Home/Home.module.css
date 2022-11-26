@@ -1,0 +1,91 @@
+
+body{
+        font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif !important;
+        font-family: raleway neue !important;
+        font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif !important;
+
+}
+header{
+    background-image: url(../image/photo-1443527216320-7e744084f5a7-1\ -\ Copy.jpg) !important;
+    background-position: center center;
+    background-size: cover ;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+header h1{
+    font-size: 60px ;
+    font-weight: 400 !important;
+    line-height: 64px ;
+    color: #ffffff;
+    font-family: inherit !important;
+}
+
+.btnFilled{
+    background-color:#745cf9 !important ;
+    color: #ffffff !important;
+    border-color: #745cf9;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 53px!important;
+}
+
+div a[id='btn-Download']:hover {
+    background: #ffffff !important;
+     color: #000 !important;
+}
+
+
+/* =================== Portfolio Section =============== */
+
+section[id='SectionPortfolio']
+{
+    background-color: #f5f5f5  ;
+}
+
+/* ================== Small Parallax Section  =================== */
+
+section[id='Parallax Section']
+{
+    background-image: url(../image/photo-1452723312111-3a7d0db0e024.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+section[id='Parallax Section'] h1{
+    font-size: 60px ;
+    font-weight: 400 !important;
+    line-height: 64px ;
+    color: #ffffff;
+    font-family: inherit !important;
+}
+
+/* ===================== Limitless Options =================== */
+
+section[id='OptionsLimitless']
+{
+    background-color: #f5f5f5 ;
+
+}
+
+/* =================   =================== */
+
+section[ id='Our Customers']{
+    height: 60vh;
+    background-image: url(../image/photo-1451417379553-15d8e8f49cde.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div[id='JohnDoeImg']{
+    margin-top: 50px !important;
+    height: 50% !important; 
+    width: 25% !important;
+    background-color: chartreuse !important;
+}
+div[id='JohnDoeImg'] img{
+    width: 40% ;
+
+}

@@ -1,0 +1,22 @@
+a{
+    cursor: pointer;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 53px !important;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif !important;
+}
+.navlink
+{
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif !important;
+    line-height: 53px !important;
+    color: #000 !important;
+    
+}
+
+a i{
+    color: #5234f9;
+}
+.navlink:hover 
+{
+    color: #5234f9 !important;
+}
