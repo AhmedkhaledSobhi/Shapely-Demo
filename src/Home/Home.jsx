@@ -26,14 +26,14 @@ export default function Home() {
   return (
     <>
       <header className='vh-100 d-flex align-items-center justify-content-center text-center'>
-        <div className=''>
+        <div>
           <h1 className='mt-5 '>We Change Everything WordPress</h1>
           <span>This is the only WordPress theme you will ever want to use.</span>
           <div className='mt-3 '>
           <a className={`btn-1 btn-lg px-5 py-4 mx-1 rounded-0 text-decoration-none fw-bolder ${HomeStyle.btnFilled}`} href="#">READ MORE</a> 
           <a id='btn-Download' className=  'btn btn-1 text-light border border-3 px-4 py-0 mx-1 fw-bolder rounded-0 text-decoration-none' href="#">DOWNLOAD NOW </a>
           </div>
-        </div>
+        
       </header>
 
       {/* =========================== SEO Friendly  ======================== */}
@@ -221,8 +221,8 @@ export default function Home() {
               <span className="visually-hidden">Previous</span>
             </button>
             <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
